@@ -1,27 +1,19 @@
+baseURL = "https://jueng9595.github.io/firstproject/"
+languageCode = "ko-kr"
+title = "Security Study Log"
+theme = "PaperMod"
+
+# 이 두 줄이 디자인 파일을 강제로 연결해줍니다.
+canonifyURLs = true
+relativeURLs = false
+
+[params]
+    defaultTheme = "dark" # 디자인 확인하기 좋게 다크모드 고정
+
 [params.profileMode]
     enabled = true
-    title = "안녕하세요, 양희찬입니다"
-    subtitle = "보안 공부와 투자 기록을 담는 공간입니다. 🛡️"
+    title = "장양환"
+    subtitle = "Cyber Security Learner"
     imageUrl = "https://github.com/jueng9595.png"
-    imageWidth = 120
+    imageWidth = 120 # 거대한 고양이 사진 방지
     imageHeight = 120
-    
-    [[params.profileMode.buttons]]
-        name = "게시글 보기"
-        url = "posts"
-    [[params.profileMode.buttons]]
-        name = "GitHub"
-        url = "https://github.com/jueng9595"
-        
-    [params]
-    defaultTheme = "dark"
-    
-    [[menu.main]]
-    name = "워게임 풀이"
-    url = "posts"
-    weight = 10
-
-[[menu.main]]
-    name = "검색"
-    url = "search"
-    weight = 20

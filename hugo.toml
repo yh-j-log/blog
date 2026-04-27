@@ -1,40 +1,16 @@
-baseURL = "https://jueng9595.github.io/firstproject/" # 끝에 /를 꼭 붙여주세요!
+baseURL = "https://jueng9595.github.io/firstproject/"
 languageCode = "ko-kr"
 title = "Security Study Log"
 theme = "PaperMod"
 
-# 아래 설정이 있어야 CSS가 경로를 제대로 찾습니다.
-relativeURLs = true
+# 이 두 설정이 경로 문제를 강제로 해결합니다
 canonifyURLs = true
+relativeURLs = false  # 하위 경로가 있을 땐 false가 더 안정적입니다
 
-[params]
-    env = 'production'
-    title = 'Security Study Log'
-    description = '22살 군인 보안 학습자의 기록' # 검색 엔진에 노출될 설명
-    defaultTheme = 'auto' # 시스템 설정에 따라 다크모드 자동 전환
-    showCodeCopyButtons = true # 코드 복사 버튼 활성화 (보안 블로그 필수!)
-    
-    [params.homeInfoParams]
-        Title = "안녕하세요, 보안 공부 중인 장양환입니다."
-        Content = "군 복무 중 학습한 취약점 분석, 워게임 풀이, 경제적 자유를 위한 투자 기록을 담습니다."
-
-    [[params.socialIcons]] # SNS나 깃허브 링크 연결
-        name = "github"
-        url = "https://github.com/jueng9595"
-        
-    [params.profileMode]
-     enabled = true
-     title = "장양환"
-      subtitle = "Cyber Security Learner"
-     imageUrl = "profilepicure.jpg"
-     imageWidth = 150
-     imageHeight = 150
-
-    [[menu.main]]
-    name = "Wargame"
-    url = "/posts/wargame"
-     weight = 10
-    [[menu.main]]
-     name = "Search"
-     url = "/search" # 나중에 검색 페이지를 만들면 연결됩니다.
-     weight = 20
+[params.profileMode]
+    enabled = true
+    title = "장양환"
+    subtitle = "Cyber Security Learner"
+    imageUrl = "https://github.com/jueng9595.png"
+    imageWidth = 150
+    imageHeight = 150

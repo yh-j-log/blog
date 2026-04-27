@@ -3,14 +3,6 @@ languageCode = "ko-kr"
 title = "Security Study Log"
 theme = "PaperMod"
 
-# 이 두 설정이 경로 문제를 강제로 해결합니다
-canonifyURLs = true
-relativeURLs = false  # 하위 경로가 있을 땐 false가 더 안정적입니다
-
-[params.profileMode]
-    enabled = true
-    title = "장양환"
-    subtitle = "Cyber Security Learner"
-    imageUrl = "https://github.com/jueng9595.png"
-    imageWidth = 150
-    imageHeight = 150
+# 하위 경로(/firstproject/)가 있을 때 가장 확실한 조합입니다
+canonifyURLs = false
+relativeURLs = true

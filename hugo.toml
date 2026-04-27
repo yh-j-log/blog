@@ -1,7 +1,7 @@
 baseURL = 'https://jueng9595.github.io/firstproject/' # 본인 블로그 주소
 languageCode = 'ko-kr'
 title = 'Security Study Log' # 블로그 상단 제목
-theme = ["theme/PaperMod"]
+theme = "PaperMod"
 
 [params]
     env = 'production'

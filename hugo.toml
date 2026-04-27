@@ -17,3 +17,18 @@ relativeURLs = false
     imageUrl = "https://github.com/jueng9595.png"
     imageWidth = 120 # 거대한 고양이 사진 방지
     imageHeight = 120
+[[params.profileMode.buttons]]
+    name = "모든 글 보기"
+    url = "posts"
+[[params.profileMode.buttons]]
+    name = "태그별 보기"
+    url = "tags"
+[[menu.main]]
+    name = "Wargame"
+    url = "posts"
+    weight = 10
+
+[[menu.main]]
+    name = "Search"
+    url = "search"
+    weight = 20

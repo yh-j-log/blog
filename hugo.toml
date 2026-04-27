@@ -1,8 +1,27 @@
-baseURL = "https://jueng9595.github.io/firstproject/"
-languageCode = "ko-kr"
-title = "Security Study Log"
-theme = "PaperMod"
+[params.profileMode]
+    enabled = true
+    title = "안녕하세요, 양희찬입니다"
+    subtitle = "보안 공부와 투자 기록을 담는 공간입니다. 🛡️"
+    imageUrl = "https://github.com/jueng9595.png"
+    imageWidth = 120
+    imageHeight = 120
+    
+    [[params.profileMode.buttons]]
+        name = "게시글 보기"
+        url = "posts"
+    [[params.profileMode.buttons]]
+        name = "GitHub"
+        url = "https://github.com/jueng9595"
+        
+    [params]
+    defaultTheme = "dark"
+    
+    [[menu.main]]
+    name = "워게임 풀이"
+    url = "posts"
+    weight = 10
 
-# 하위 경로(/firstproject/)가 있을 때 가장 확실한 조합입니다
-canonifyURLs = false
-relativeURLs = true
+[[menu.main]]
+    name = "검색"
+    url = "search"
+    weight = 20

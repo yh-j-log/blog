@@ -1,5 +1,5 @@
-baseURL = "https://yh-j-log.github.io/firstproject/"
-languageCode = "ko-kr"
+# 맨 윗줄의 baseURL을 아래와 같이 수정하세요.
+baseURL = "https://yh-j-log.github.io/blog/"languageCode = "ko-kr"
 title = "Security Study Log"
 theme = "PaperMod"
 
